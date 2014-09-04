@@ -1,0 +1,7 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Wolfram Alpha</os:ShortName>
+<os:Description>Wolfram Alpha</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAb9JREFUeNqMkz9IVXEUx38/35977wsbNMiGcCjCxSV1kVwjounxIJAcrJagyEEEp6awphCdmgWxaGqphgp0EVGJahGDcpD+vFpKfe++x719zu1c+Hl7Dzzw4ff3nHvO93eu/TF42qh1wDH4A7HuWRgGD16bjJ1Y20mcUotgDO46exJoBnpNG+vIrL/BQ5gAH8owBD/1XDK5BCdTh7xudkIVnsELeATnNaNYR7lzEc7ANTdAEaa03u/G2r64XqOgaIw57rFlrFg/qDAXn1vw2Q2wB8uwwMXjce1A5bOHRtknyFuCLLg151W85zDJlx8n6q5s/SdW9cI5w3m/LXr3Wb6BABbzel6Aki0UTRzWk8utjPNuhtuqwcs0QAWmVbSjmJR7A76kJYyqgB8RThT225YQhsZ63hzLT64GZZ0HJpd7YpqNK21L8H15FXnSV/A720in4CxK/1M+irQXY3UOdpnPMx2Q2qHHDSCKXoUPXBpH6TUblEjXF8evMrIvtd+By7AOXWkJYk14CrOwr5ekha/DBtyEEf3Qe6XoZtCAbXVOA24mzWXMO7inbe6+VOhmkLVVWNJAYr/gQYufz/wVYAA2S3zdmw6CFwAAAABJRU5ErkJggg==</os:Image>
+<os:Url type="text/html" method="GET" template="https://www.wolframalpha.com/input/?i={searchTerms}" />
+</SearchPlugin>

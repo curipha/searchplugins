@@ -1,0 +1,7 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Weblio Thesaurus</os:ShortName>
+<os:Description>Weblio Thesaurus</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAABGdBTUEAALGPC%2FxhBQAAAAd0SU1FB9oKCAsCKYyksKgAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAACaklEQVQ4T6WRX0gUURTGx1yKTEnIwAqhWoLAh4IeInopeiii6CEkiIKgoJACIYjoxZdeiiAhU7dMLKuFkgILg6Ja6R%2Bkje7srjqrrqbuuPNPbWfd2Z0Z%2Fbr3KjP2WN3hm3vmm3t%2B95x7C0KhELj%2FGRTwN2NhafE8FsA2py%2BHPDk7x2TS2VmcXVkmTIt%2Bk5mKxsRzAeZ8DrZjM7btWMjkMzDyBrCwuF%2BWJFGPCvPEILZBYg%2FgmGgfeYkDHYdxR2iCbdtwHAfnQtU4%2BPooPk52sYR0Lo0Tb0%2Fh2JsqqHOqB9BMHX2KAK6eg%2F9pJdtFn9NR1LwOhYFinHx3BnnLwtDMCLjGlSh%2FuBmWZXsAJatCMqZQ2rIBa1vKMfFrEoIaZcAdz3dj46OtJCGPx2IQ3N0VqCJVWATotiBnFWTzWWwP7gTX4AMv95JWGlHQVITmWCtJKoSW0VjpNA6Kz6AYy1qQMhJkQ8HlL1cZ4GbvbRzpPI6Ktm1IpiVwdRw%2BJ7%2BySnyBEoh6HD9nxr0KxtMTGNZH8GGc3GtDIXa174X%2FSSXOhy5iZm4Wa5rLcPr9WZS1VpD%2BtyCVlpGYHvUAidkxiFocMWUAq8nB0cOjh%2FUq0QnN0LHnxT6sul%2BK4gfrsb%2FjEEse0oY9QHx6GIOqCGlWwqY2P1vsu1eCiBxDnCy83n2D9F7AoLf4OozqYxhQBj1AvzaIqNwPUY2jPhxAzacruPatliQPQUhF8D3ZjQuhS6juqkGPxCOaiiFC5N5CRIkiPCUw%2FUj2uuqjHgEIqajr0W%2FqU7kAPhX%2BI3ERwi%2FzaMyjZ8nvof8meQ9ASf%2Bq33jiA6zWlfOEAAAAAElFTkSuQmCC</os:Image>
+<os:Url type="text/html" method="GET" template="http://thesaurus.weblio.jp/content/?query={searchTerms}" />
+</SearchPlugin>

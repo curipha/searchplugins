@@ -1,0 +1,7 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>英辞郎</os:ShortName>
+<os:Description>英辞郎</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABXFBMVEX///+zuLj3+Pnh5ubp7OzP1NX5+vr+/v4+ZG05c2lpcnJ0jltvfH+JlnyRmXP19va7wsO8wsO/wcG7wsS+wsK/xcW9xsjAx8fCx8fAycrDycvGysrEyszGy8zHy8zHzMzL0MXHzM3JzMzJzs7Jzs/Iz8/Lzs7Kzs/Lz8+yt7ixubqzubq0urqyu7y0u7y2vLy2vL23vL63vb66vb6+xLSmsLGosbKrtLWstLWttLWstbaDkpOTm5yVnJydqaukrbO4wMC7vr+5wMK8wMCyvqettbWstratt7mtuLnL0dPQ09PQ1NTT1tbV2NjU2NnU2dnV2trh4uHh4uLe4+Tg4uTi5ubi5ufo5uLo6enq6+fq7e3s7u7u8PD08e3x8/Py8/Pz8/Py9PT09fX19PX09vb29/f39/f4+fj6+vX4+fn5+fr7+/v6/Pz7/f3+/f39/f79/v7//v7+/v/+//+2SmfNAAAAs0lEQVR4Xk3H067FUABAwdX22LZtX9q2bRv/n5zsNE3uvA3Cz25peWIykD1EdeVqvgJP+wN5hPuFbVLzJwDeHPC1dMCRyewAeK87IZmAO7u1h6CPYRhxAs8Xvwi6QZQi/xgqTO0AH7fHMgJtbCuFSDw4ZtEhfHborp3Jp9LQAwKXVcC4IelRse6G85b/Rft3+RrGN9GQmQFWfVrf0g0jgKem/AGPW8NzqPZGZ0Ph6OL0DUAfng4aOtk515YAAAAASUVORK5CYII=</os:Image>
+<os:Url type="text/html" method="GET" template="http://eow.alc.co.jp/{searchTerms}/UTF-8/" />
+</SearchPlugin>
