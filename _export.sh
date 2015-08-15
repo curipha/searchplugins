@@ -25,9 +25,6 @@ for file in `ls -1 *${PLUGEXT}`; do
 
   tr -d "\r" < ${file} > ${file}.lf
   mv "${file}.lf" "${file}"
+  chmod 0644 "${file}"
 done
-
-
-# Update mode
-chmod 0644 ${PLUGEXT}
 
