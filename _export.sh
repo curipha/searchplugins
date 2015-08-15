@@ -19,7 +19,7 @@ rm -f *${PLUGEXT}
 # Copy plugins from Firefox's user profile directory
 find "${FXPROFILE}" -type f -iname "*${PLUGEXT}" -ipath "*/searchplugins/*" -exec cp {} . \;
 
-# Change linefeed code to LF only
+# Processing each file
 for file in `ls -1 *${PLUGEXT}`; do
   echo Processing "${file}"...
 
