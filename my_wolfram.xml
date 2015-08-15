@@ -1,7 +1,9 @@
-<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
-<os:ShortName>Wolfram Alpha</os:ShortName>
-<os:Description>Wolfram Alpha</os:Description>
-<os:InputEncoding>UTF-8</os:InputEncoding>
-<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABpUlEQVR4AbWRAwxUcRjAv7P1x/kxY8iusSGbs7Mxb2G2m5pvyPVm76Yw5x6zbX1n537b7/Du88GPuB7LrD/iT4TgV/gGKdfDaHbywxCpJjyOxgM2Fe4+TA+dA3XstDzeTlEOg7CpfNAkhbJOsqsNpm40mfTNYIqGLraYXMLvNy+FM3kYxE2uzMLAbxjYV4vL2oDOittgYtykwnIM/DqogMGksw5XRzhMHKIzQQZAHlElhT8cxYAn6Gf029cXz3qsF/mKfjK4/OhRrLAeGtzIDhlhUulMo9OT7Xtq7thXc+f+1hpUeHmdCYuhGyeaUCwqv6gG/kCLSiXo5kEqPxlvcLEe9IMVUCp80jPKfGiA//1QfHgKf7yPfkLr4++tieO3r4B+xpvduc3V6bUCQeJ+Hky7TC6FLa7OxYCPP1hBw7ixd6g01eZDhkI3en7YdJPWuqDv2hKrt9GpeBx+hJMsHDa5rGHwFIuJm+vJVxymDL9NxMM4+oXH4UwA+nGJiK5b8cKEa0nBB4jFlDAm37O5sh3qGFycU3YnEvCrGFzd+SaYGQH/k+/quye2RPleTQAAAABJRU5ErkJggg==</os:Image>
-<os:Url type="text/html" method="GET" template="https://www.wolframalpha.com/input/?i={searchTerms}" />
-</SearchPlugin>
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Wolfram Alpha</ShortName>
+  <Description>Wolfram Alpha</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABpUlEQVR4AbWRAwxUcRjAv7P1x/kxY8iusSGbs7Mxb2G2m5pvyPVm76Yw5x6zbX1n537b7/Du88GPuB7LrD/iT4TgV/gGKdfDaHbywxCpJjyOxgM2Fe4+TA+dA3XstDzeTlEOg7CpfNAkhbJOsqsNpm40mfTNYIqGLraYXMLvNy+FM3kYxE2uzMLAbxjYV4vL2oDOittgYtykwnIM/DqogMGksw5XRzhMHKIzQQZAHlElhT8cxYAn6Gf029cXz3qsF/mKfjK4/OhRrLAeGtzIDhlhUulMo9OT7Xtq7thXc+f+1hpUeHmdCYuhGyeaUCwqv6gG/kCLSiXo5kEqPxlvcLEe9IMVUCp80jPKfGiA//1QfHgKf7yPfkLr4++tieO3r4B+xpvduc3V6bUCQeJ+Hky7TC6FLa7OxYCPP1hBw7ixd6g01eZDhkI3en7YdJPWuqDv2hKrt9GpeBx+hJMsHDa5rGHwFIuJm+vJVxymDL9NxMM4+oXH4UwA+nGJiK5b8cKEa0nBB4jFlDAm37O5sh3qGFycU3YnEvCrGFzd+SaYGQH/k+/quye2RPleTQAAAABJRU5ErkJggg==</Image>
+  <Url type="text/html" method="GET" template="https://www.wolframalpha.com/input/?i={searchTerms}" />
+</OpenSearchDescription>

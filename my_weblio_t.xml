@@ -1,7 +1,9 @@
-<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
-<os:ShortName>Weblio Thesaurus</os:ShortName>
-<os:Description>Weblio Thesaurus</os:Description>
-<os:InputEncoding>UTF-8</os:InputEncoding>
-<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAilBMVEXDw8P0+fTx9/Ht9e7K58y74b294r/p8+pcvGILnBPO6M/O6NDm8eeT0ZeY05yW0prj8ORlv2pgvWUhpCjf7uDK5swopy8yqzksqDNowG3c7NxevGMNnBXA4cGY0pvY6tmSz5Zeu2PG48fV6NbE4cURnhkppzDR59M0qzpdu2LO5c/N5M7J48rK48y9++rHAAAAd0lEQVR4AWWItxUDUQzD9D8pXd7A2bX3X+hKxw1MdRdQkHiwPWWFVdtRVyiADiBC44RVI9mwBVodqeBudFqOXEEOou81qhnaKRiCMbUZwt27n/uvk4SC7kUjjS+pAtOPpRyZmoE4z9DOZ60CxL0A5Z5mZo8VtuMPh+YLBy2obIoAAAAASUVORK5CYII=</os:Image>
-<os:Url type="text/html" method="GET" template="http://thesaurus.weblio.jp/content/?query={searchTerms}" />
-</SearchPlugin>
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Weblio Thesaurus</ShortName>
+  <Description>Weblio Thesaurus</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAilBMVEXDw8P0+fTx9/Ht9e7K58y74b294r/p8+pcvGILnBPO6M/O6NDm8eeT0ZeY05yW0prj8ORlv2pgvWUhpCjf7uDK5swopy8yqzksqDNowG3c7NxevGMNnBXA4cGY0pvY6tmSz5Zeu2PG48fV6NbE4cURnhkppzDR59M0qzpdu2LO5c/N5M7J48rK48y9++rHAAAAd0lEQVR4AWWItxUDUQzD9D8pXd7A2bX3X+hKxw1MdRdQkHiwPWWFVdtRVyiADiBC44RVI9mwBVodqeBudFqOXEEOou81qhnaKRiCMbUZwt27n/uvk4SC7kUjjS+pAtOPpRyZmoE4z9DOZ60CxL0A5Z5mZo8VtuMPh+YLBy2obIoAAAAASUVORK5CYII=</Image>
+  <Url type="text/html" method="GET" template="http://thesaurus.weblio.jp/content/?query={searchTerms}" />
+</OpenSearchDescription>

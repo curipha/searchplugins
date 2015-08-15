@@ -1,7 +1,9 @@
-<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
-<os:ShortName>kotobank</os:ShortName>
-<os:Description>kotobank</os:Description>
-<os:InputEncoding>UTF-8</os:InputEncoding>
-<os:Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAQAAADlauupAAACtklEQVR4AZWTA5AdaRwHv/zmxQ97tm1rFdu2kznbtlWIbVur2LZtG7PvZdH3PxZPXdXj/sZOQ4p4GuJWa7+7TSOveFXP+O/ppqkTVHR/LT0enNJjQULF9jfUjVOHqL3va9gVL3sl3O2/NdY6W5itXDdKfZLnq1zmA96Ac0HsKX68ZxxNym0p6FouPf/be0oW9ot9At6aoIjKZyarV/JsYY21Tj2cU++UH9Ru/ZHSLxWeavVQ3rLVrnBr4kP6AAvNlxKVaLpqCoPb1IZwRbBj56tnyvfq6iwedlVUlbLWhZOg2+0FNeJ16HJ4Chx8Hw7Mx7TlD+FwBsTLQPcwhG1Ya2Zr8FVRp/bPbvAOBM3abCkcAcx/1+KrfjAbmq+bz5t5cM1L8P5+DGj7FnhBkKVWz85zuilzT2wrLG/BBoyPbXpjUbghw1xvy7vhogdAWdCwGWAsLwOxBCg5q7fTlQfvu3sVBPUBI3c6HH/YfPF3z20EvzWEItDoXcAI2sLdi8Ardnyykx//qcw+/pEXG0HoWmj0Mn9RZhl4n7LHKSMvln7g/w+QvhG8Z6nqtPl45O52EFz5P27hGri7PWj2se5OZabnJ02GVS3hvz7EVW9C0mLQXdPbObV8tV7ogfj3/u2A8e6If3iNWwDDfwpC6fHB+uHV8U4Dr6+oGrNSIs9B98+5L/4Aow6Pg4OvwYG5mLZsZzw8AeI3Q48YRL4ENZv1tTZf39rpJ+fUs8z1arvx2dLZZLfKK3h79ZtcnFjMXyRmwepnoc2nEE4HtdmYpB5lpPHO4iEuR+fcdPVOfkdlp27wxp+/J7YE7t0EFR4zw7a8DJIuBm/D+fUqN3WH/UwtleemyNo/f+dV3lxXWiMu3ynfT9INGTeo+P6Fqpn7s6qbxfYv0HUZl6id72nY5TtCd9qx1sjaXwBDe35yQaug+gAAAABJRU5ErkJggg==</os:Image>
-<os:Url type="text/html" method="GET" template="http://kotobank.jp/search/result?q={searchTerms}" />
-</SearchPlugin>
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>kotobank</ShortName>
+  <Description>kotobank</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAQAAADlauupAAACtklEQVR4AZWTA5AdaRwHv/zmxQ97tm1rFdu2kznbtlWIbVur2LZtG7PvZdH3PxZPXdXj/sZOQ4p4GuJWa7+7TSOveFXP+O/ppqkTVHR/LT0enNJjQULF9jfUjVOHqL3va9gVL3sl3O2/NdY6W5itXDdKfZLnq1zmA96Ac0HsKX68ZxxNym0p6FouPf/be0oW9ot9At6aoIjKZyarV/JsYY21Tj2cU++UH9Ru/ZHSLxWeavVQ3rLVrnBr4kP6AAvNlxKVaLpqCoPb1IZwRbBj56tnyvfq6iwedlVUlbLWhZOg2+0FNeJ16HJ4Chx8Hw7Mx7TlD+FwBsTLQPcwhG1Ya2Zr8FVRp/bPbvAOBM3abCkcAcx/1+KrfjAbmq+bz5t5cM1L8P5+DGj7FnhBkKVWz85zuilzT2wrLG/BBoyPbXpjUbghw1xvy7vhogdAWdCwGWAsLwOxBCg5q7fTlQfvu3sVBPUBI3c6HH/YfPF3z20EvzWEItDoXcAI2sLdi8Ardnyykx//qcw+/pEXG0HoWmj0Mn9RZhl4n7LHKSMvln7g/w+QvhG8Z6nqtPl45O52EFz5P27hGri7PWj2se5OZabnJ02GVS3hvz7EVW9C0mLQXdPbObV8tV7ogfj3/u2A8e6If3iNWwDDfwpC6fHB+uHV8U4Dr6+oGrNSIs9B98+5L/4Aow6Pg4OvwYG5mLZsZzw8AeI3Q48YRL4ENZv1tTZf39rpJ+fUs8z1arvx2dLZZLfKK3h79ZtcnFjMXyRmwepnoc2nEE4HtdmYpB5lpPHO4iEuR+fcdPVOfkdlp27wxp+/J7YE7t0EFR4zw7a8DJIuBm/D+fUqN3WH/UwtleemyNo/f+dV3lxXWiMu3ynfT9INGTeo+P6Fqpn7s6qbxfYv0HUZl6id72nY5TtCd9qx1sjaXwBDe35yQaug+gAAAABJRU5ErkJggg==</Image>
+  <Url type="text/html" method="GET" template="http://kotobank.jp/search/result?q={searchTerms}" />
+</OpenSearchDescription>
