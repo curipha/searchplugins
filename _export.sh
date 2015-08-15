@@ -3,6 +3,9 @@
 # Search plugins extractor
 # * Extract searchplugins from Firefox profile directory
 
+set -o nounset
+set -o errexit
+
 FXPROFILE=${USERPROFILE//\\/\/}/AppData/Roaming/Mozilla/Firefox/Profiles
 PLUGEXT=*.xml
 
