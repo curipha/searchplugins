@@ -6,26 +6,25 @@
 set -o nounset
 set -o errexit
 
-FXPROFILE=${USERPROFILE//\\/\/}/AppData/Roaming/Mozilla/Firefox/Profiles
-PLUGEXT=*.xml
+FXPROFILE="${USERPROFILE//\\/\/}/AppData/Roaming/Mozilla/Firefox/Profiles"
+PLUGEXT=.xml
 
 
 # Change directory to the same level as this script
 cd `dirname "${0}"`
 
 # Remove current plugins
-rm ${PLUGEXT}
+rm -f *${PLUGEXT}
 
 # Copy plugins from Firefox's user profile directory
-find "${FXPROFILE}" -type f -iname "${PLUGEXT}" -ipath "*/searchplugins/*" -exec cp {} . \;
-
+find "${FXPROFILE}" -type f -iname "*${PLUGEXT}" -ipath "*/searchplugins/*" -exec cp {} . \;
 
 # Change linefeed code to LF only
-for file in `ls -1 ${PLUGEXT}`; do
+for file in `ls -1 *${PLUGEXT}`; do
   echo Processing "${file}"...
 
   tr -d "\r" < ${file} > ${file}.lf
-  mv ${file}.lf ${file}
+  mv "${file}.lf" "${file}"
 done
 
 
