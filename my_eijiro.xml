@@ -6,4 +6,5 @@
   <InputEncoding>UTF-8</InputEncoding>
   <Image type="image/png" width="16" height="16">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMA/wD/AP83WBt9AAABtElEQVR4AY2SA8wcURDHN9anfff5FkGNuI1tNWqD2o1rt2Ft245Tnc3F2VZtI7z+m0WNycPgN49Dtdtt3lD4zwaY0g3OkGGJxBKRM6Q0TwomnAjpGBJyLIkytG+4x3T+dK5cejHcc8tIO9GgwIQTIQDAAFMcSS2aFfv8HwIMMIV9p02RC/mnhfzjRw9ffvz4sZB/VMg/xIgGE06EAAAD/PVIHIkbafdg943N6z17dgT7Og/nsg9PHZf6O4/DhBMhAMAAq5dmSTiTfvjmD4IQAIVUExjam0w0X758uXNrAA1KMlHfuTWo6U0A3xI4khzuuR2L1p49ezbQdR4NSixaHei6pOk1AMCUBCwffPwfAkxPCElCRRSKolCwWxMPvhNRyMOJEABgSkKeJTJ2HMlcWb3sbiiYbbVaB/b6rOYkFIs5tmT+LZxtuOcuMMBIyE2eKAYDhYYmB/aEjbR9NGe1mFK602LKAAOs7CDu3y3UajXTncSMqU6cFcWDT2Voz6plXtOdOEJnTsosEZQdUGTpsbwwaYKXof3K72illmVJBFWE0Fg+rBSlUt55QGhQfi3p76OAvwC6Yq2z6sfJrwAAAABJRU5ErkJggg==</Image>
   <Url type="text/html" method="GET" template="http://eow.alc.co.jp/{searchTerms}/UTF-8/" />
+  <moz:SearchForm>http://www.alc.co.jp/</moz:SearchForm>
 </OpenSearchDescription>
