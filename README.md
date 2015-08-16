@@ -3,8 +3,12 @@ searchplugins
 
 OpenSearch plugins for Firefox.
 
-Put the xml file(s) into the your `searchplugins` directory and restart Firefox.
-It recommends to use the `searchplugins` directory in your profile directory (create if missing).
+How to use
+----------
+
+1. Go to your Firefox profile directory
+2. Put the xml file(s) into the `searchplugins` directory (create if missing)
+3. Restart Firefox
 
 
 Remarks
