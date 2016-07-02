@@ -23,7 +23,7 @@ find "${FXPROFILE}" -type f -iname "*${PLUGEXT}" -ipath "*/searchplugins/*" -exe
 for file in *${PLUGEXT}; do
   echo Processing "${file}"...
 
-  tr -d "\r" < ${file} > ${file}.lf
+  tr -d "\r" < "${file}" > "${file}.lf"
   mv "${file}.lf" "${file}"
   chmod 0644 "${file}"
 done
