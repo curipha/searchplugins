@@ -20,7 +20,7 @@ rm -f -- *${PLUGEXT}
 find "${FXPROFILE}" -type f -iname "*${PLUGEXT}" -ipath "*/searchplugins/*" -exec cp {} . \;
 
 # Processing each file
-for file in `ls -1 *${PLUGEXT}`; do
+for file in *${PLUGEXT}; do
   echo Processing "${file}"...
 
   tr -d "\r" < ${file} > ${file}.lf
