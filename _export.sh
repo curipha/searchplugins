@@ -11,7 +11,7 @@ PLUGEXT=.xml
 
 
 # Change directory to the same level as this script
-cd `dirname "${0}"`
+cd "$(dirname "${0}")"
 
 # Remove current plugins
 rm -f *${PLUGEXT}
