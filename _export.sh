@@ -14,7 +14,7 @@ PLUGEXT=.xml
 cd "$(dirname "${0}")"
 
 # Remove current plugins
-rm -f *${PLUGEXT}
+rm -f -- *${PLUGEXT}
 
 # Copy plugins from Firefox's user profile directory
 find "${FXPROFILE}" -type f -iname "*${PLUGEXT}" -ipath "*/searchplugins/*" -exec cp {} . \;
